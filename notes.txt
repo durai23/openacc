@@ -1,0 +1,11 @@
+salloc --partition=gpus --gres=gpu:4 --reservation=openacc1
+
+CPU
+	SIMD
+	SMT
+GPU
+	SIMT
+
+
+what is collapsing nested loops
+export JSC_SUBMIT_CMD="srun --pty"
