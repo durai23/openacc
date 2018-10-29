@@ -1,0 +1,8 @@
+salloc --partition=gpus --gres=gpu:4 --reservation=openacc1
+
+CPU
+	SIMD
+	SMT
+GPU
+	SIMT
+

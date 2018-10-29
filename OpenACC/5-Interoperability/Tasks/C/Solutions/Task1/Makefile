@@ -1,0 +1,24 @@
+CUDA_PATH ?= $(CUDA_HOME)
+
+INCDIRS = -I$(CUDA_PATH)/include
+LIBDIRS = -L$(CUDA_PATH)/lib64
+
+LIBS = -lcublas
+
+COMPOPT = 
+ACCOPT = -acc -ta=tesla:cc35 -Minfo=accel
+
+JSC_SUBMIT_CMD ?= srun --partition=gpus --gres=gpu:1 
+
+.PHONY: all
+all: vecAddRed.bin
+
+vecAddRed.bin: vecAddRed.c Makefile
+	pgc++ $(COMPOPT) $(ACCOPT) vecAddRed.c $(LIBDIRS) $(LIBS) -o vecAddRed.bin
+
+.PHONY: run clean
+run: vecAddRed.bin
+	$(JSC_SUBMIT_CMD) ./vecAddRed.bin
+	
+clean:
+	rm -f vecAddRed.bin *.o

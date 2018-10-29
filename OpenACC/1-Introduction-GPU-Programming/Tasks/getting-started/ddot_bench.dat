@@ -1,0 +1,10 @@
+Call to DDot took 0.000013 s
+Call to cublasDdot took 0.000109 s (0.000029 s for transfer)
+Call to DDot took 0.004901 s
+Call to cublasDdot took 0.000150 s (0.000066 s for transfer)
+Call to DDot took 0.008523 s
+Call to cublasDdot took 0.000604 s (0.000448 s for transfer)
+Call to DDot took 0.018463 s
+Call to cublasDdot took 0.002634 s (0.002325 s for transfer)
+Call to DDot took 0.013526 s
+Call to cublasDdot took 0.022929 s (0.021651 s for transfer)

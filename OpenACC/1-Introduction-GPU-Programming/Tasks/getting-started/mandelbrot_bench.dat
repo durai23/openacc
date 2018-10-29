@@ -1,0 +1,14 @@
+Calculating the Mandelbrot set on a 64 by 64 grid took 0.000283 s
+Calculating the Mandelbrot set on a 64 by 64 grid took 0.003454 s
+Calculating the Mandelbrot set on a 256 by 256 grid took 0.000532 s
+Calculating the Mandelbrot set on a 256 by 256 grid took 0.003827 s
+Calculating the Mandelbrot set on a 1024 by 1024 grid took 0.004731 s
+Calculating the Mandelbrot set on a 1024 by 1024 grid took 0.007834 s
+Calculating the Mandelbrot set on a 4096 by 4096 grid took 0.067927 s
+Calculating the Mandelbrot set on a 4096 by 4096 grid took 0.059183 s
+Calculating the Mandelbrot set on a 8192 by 8192 grid took 0.253714 s
+Calculating the Mandelbrot set on a 8192 by 8192 grid took 0.212469 s
+Calculating the Mandelbrot set on a 16384 by 16384 grid took 0.772297 s
+Calculating the Mandelbrot set on a 16384 by 16384 grid took 0.799288 s
+Calculating the Mandelbrot set on a 32768 by 32768 grid took 2.99966 s
+Calculating the Mandelbrot set on a 32768 by 32768 grid took 3.15798 s
