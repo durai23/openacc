@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:q!
 :wq
+:q!
 :w
 
 # Search String History (newest to oldest):
@@ -23,66 +23,54 @@
 # Registers:
 
 # File marks:
-'0  139  7  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
-'1  122  8  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
-'2  11  33  ~/notes.txt
-'3  10  30  ~/notes.txt
-'4  1  58  ~/notes.txt
-'5  12  0  ~/.git/config
-'6  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
-'7  1  58  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
+'0  10  15  ~/.git/config
+'1  139  7  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
+'2  122  8  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
+'3  11  33  ~/notes.txt
+'4  10  30  ~/notes.txt
+'5  1  58  ~/notes.txt
+'6  12  0  ~/.git/config
+'7  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
+'8  1  58  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 
 # Jumplist (newest first):
+-'  10  15  ~/.git/config
+-'  12  0  ~/.git/config
 -'  139  7  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
 -'  122  8  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
 -'  1  0  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
 -'  11  33  ~/notes.txt
 -'  10  0  ~/notes.txt
 -'  1  0  ~/notes.txt
--'  12  0  ~/.git/config
 -'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
@@ -90,49 +78,43 @@
 -'  11  33  ~/notes.txt
 -'  10  0  ~/notes.txt
 -'  1  0  ~/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  12  0  ~/.git/config
--'  1  0  ~/.git/config
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/config
+	"	10	15
+	^	10	16
+	.	7	40
+	+	9	17
+	+	11	26
+	+	11	26
+	+	7	40
 
 > ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
 	"	139	7
@@ -147,14 +129,6 @@
 	+	1	0
 	+	10	31
 	+	11	0
-
-> ~/.git/config
-	"	12	0
-	^	12	0
-	.	11	26
-	+	9	17
-	+	11	26
-	+	11	26
 
 > ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 	"	8	0
