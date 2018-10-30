@@ -11,7 +11,7 @@ alias ll='ls -lh'               # ll list with long format
 alias la='ls -la'               # la list also hidden files
 alias la='ls -la |pg'   # la list also hidden files page by page
 alias l='ll'
-
+alias dc='cd'
 if [ -f ~train001/group-bashrc.sh ]; then
 	source ~train001/group-bashrc.sh
 fi

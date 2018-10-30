@@ -9,8 +9,14 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-:q!
 :w
+:q!
+:set number
+:W
+:Wq
+:WQ
+:swq
+:q
 
 # Search String History (newest to oldest):
 
@@ -21,25 +27,52 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	        // TODO: Add OpenACC clause to provide device addresses to cudaVecAddWrapper
+"-	CHAR	0
+	1
 
 # File marks:
-'0  10  15  ~/.git/config
-'1  139  7  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
-'2  122  8  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
-'3  11  33  ~/notes.txt
-'4  10  30  ~/notes.txt
-'5  1  58  ~/notes.txt
-'6  12  0  ~/.git/config
-'7  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
-'8  1  58  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
+'0  29  0  ~/notes.txt
+'1  31  48  ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/vecAddRed.c
+'2  34  0  ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/vecAddRed.c
+'3  1  0  ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/vecAddRed.
+'4  1  0  ~/OpenACC/5-Interoperability/Tasks/C/Solutions/Task2/cudaWrapper.cu
+'5  1  0  ~/OpenACC/5-Interoperability/Tasks/C/Solutions/Task1/vecAddRed.c
+'6  1  0  ~/OpenACC/4-Performance-Optimization/exercises/C/task2/spmv.solution.c
+'7  1  0  ~/OpenACC/4-Performance-Optimization/exercises/C/task2/spmv.c
+'8  14  12  ~/.bashrc
+'9  1  0  ~/.BASHRC
 
 # Jumplist (newest first):
+-'  29  0  ~/notes.txt
+-'  22  0  ~/notes.txt
+-'  31  48  ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/vecAddRed.c
+-'  34  8  ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/vecAddRed.c
+-'  5  0  ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/vecAddRed.c
+-'  1  0  ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/vecAddRed.
+-'  1  0  ~/OpenACC/5-Interoperability/Tasks/C/Solutions/Task2/cudaWrapper.cu
+-'  1  0  ~/OpenACC/5-Interoperability/Tasks/C/Solutions/Task1/vecAddRed.c
+-'  1  0  ~/OpenACC/4-Performance-Optimization/exercises/C/task2/spmv.solution.c
+-'  1  0  ~/OpenACC/4-Performance-Optimization/exercises/C/task2/spmv.c
+-'  14  12  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  ~/.BASHRC
+-'  19  0  ~/notes.txt
+-'  11  0  ~/notes.txt
+-'  45  0  ~/OpenACC/3-Debugging/tasks/C/task1/vecAddRed.c
+-'  23  4  ~/OpenACC/3-Debugging/tasks/C/task1/vecAddRed.c
+-'  1  0  ~/OpenACC/3-Debugging/tasks/C/task1/vecAddRed.
+-'  1  0  ~/OpenACC/3-Debugging/tasks/C/task1/vecAddRed.c
+-'  109  0  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Solutions/Task5/poisson2d.c
+-'  1  0  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Solutions/Task5/poisson2d.c
+-'  167  0  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task5/poisson2d.c
+-'  1  0  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task5/poisson2d.c
 -'  10  15  ~/.git/config
 -'  12  0  ~/.git/config
 -'  139  7  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
 -'  122  8  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
 -'  1  0  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
--'  11  33  ~/notes.txt
 -'  10  0  ~/notes.txt
 -'  1  0  ~/notes.txt
 -'  1  0  ~/.git/config
@@ -75,9 +108,6 @@
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
--'  11  33  ~/notes.txt
--'  10  0  ~/notes.txt
--'  1  0  ~/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
@@ -104,8 +134,96 @@
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 -'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
+-'  10  15  ~/.git/config
+-'  12  0  ~/.git/config
+-'  139  7  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
+-'  122  8  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
+-'  1  0  ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task4/poisson2d.c
+-'  1  0  ~/.git/config
+-'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
+-'  1  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
+-'  8  0  ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/notes.txt
+	"	29	0
+	^	29	0
+	.	28	0
+	+	1	0
+	+	10	31
+	+	11	34
+	+	18	0
+	+	19	27
+	+	22	35
+	+	28	0
+
+> ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/vecAddRed.c
+	"	31	48
+	^	31	49
+	.	31	8
+	+	31	8
+	+	32	0
+	+	31	8
+
+> ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/vecAddRed.
+	"	1	0
+
+> ~/OpenACC/5-Interoperability/Tasks/C/Solutions/Task2/cudaWrapper.cu
+	"	1	0
+
+> ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task2/cudaWrapper.cu
+	"	1	0
+
+> ~/OpenACC/5-Interoperability/Tasks/C/Solutions/Task1/vecAddRed.c
+	"	1	0
+
+> ~/OpenACC/5-Interoperability/Tasks/C/Tasks/Task1/vecAddRed.c
+	"	32	4
+	^	32	5
+	.	40	26
+	+	39	100
+	+	38	1
+	+	39	1
+	+	33	9
+	+	41	9
+	+	39	141
+	+	40	26
+
+> ~/OpenACC/4-Performance-Optimization/exercises/C/task2/spmv.solution.c
+	"	1	0
+
+> ~/OpenACC/4-Performance-Optimization/exercises/C/task2/spmv.c
+	"	1	0
+
+> ~/.bashrc
+	"	14	12
+	^	14	13
+	.	14	12
+	+	14	12
+
+> ~/.BASHRC
+	"	1	0
+
+> ~/OpenACC/3-Debugging/tasks/C/task1/vecAddRed.c
+	"	45	0
+	.	23	52
+	+	23	52
+
+> ~/OpenACC/3-Debugging/tasks/C/task1/vecAddRed.
+	"	1	0
+
+> ~/OpenACC/3-Debugging/tasks/C/task1/solution/vecAddRed.c
+	"	45	0
+
+> ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Solutions/Task5/poisson2d.c
+	"	109	0
+
+> ~/OpenACC/2-Programming-Model-OpenACC/Exercises/C/Tasks/Task5/poisson2d.c
+	"	105	79
+	^	105	80
+	.	105	72
+	+	105	72
 
 > ~/.git/config
 	"	10	15
@@ -121,14 +239,6 @@
 	^	139	8
 	.	111	0
 	+	111	0
-
-> ~/notes.txt
-	"	11	33
-	^	11	34
-	.	11	0
-	+	1	0
-	+	10	31
-	+	11	0
 
 > ~/OpenACC/1-Introduction-GPU-Programming/Tasks/getting-started/notes.txt
 	"	8	0

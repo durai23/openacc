@@ -20,7 +20,7 @@ int main( int argc, char* argv[] ) {
  
     // Sum a and b component wise, save result into c, reduce
     float sum = 0.0;
-    #pragma acc data copyin(a[10:n],b[10:n]) create(c[10:n])
+    #pragma acc data copyin(a[0:n],b[0:n]) create(c[0:n])
     {
         #pragma acc parallel loop reduction(+:sum)
         for(int i = 0; i < n; i++) {

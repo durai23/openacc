@@ -1,5 +1,5 @@
 COMPOPT = -mp -r8 -fast
-ACCOPT = -acc -ta=tesla:cc30 -Minfo=accel
+ACCOPT = -acc -ta=tesla:cc35 -Minfo=accel
 
 JSC_SUBMIT_CMD ?= srun --partition=gpus --gres=gpu:1
 

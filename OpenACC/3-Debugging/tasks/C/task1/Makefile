@@ -1,5 +1,5 @@
 COMPOPT = -fast 
-ACCOPT = -acc -ta=tesla:cc30 -Minfo=accel
+ACCOPT = -acc -ta=tesla:cc35 -Minfo=accel
 
 .PHONY: all
 all: vecAddRed.bin

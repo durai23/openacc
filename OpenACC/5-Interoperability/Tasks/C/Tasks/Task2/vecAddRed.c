@@ -28,8 +28,8 @@ int main( int argc, char* argv[] ) {
     // Copy data to GPU
     #pragma acc data copyin(a[0:n],b[0:n]) create(c[0:n])
     {
-        // TODO: Add OpenACC clause to provide device addresses to cudaVecAddWrapper
-        cudaVecAddWrapper(a, b, c, n, numThreads, numBlocks);
+        #pragma acc host_data use_device(a, b, c)
+	cudaVecAddWrapper(a, b, c, n, numThreads, numBlocks);
 
         #pragma acc parallel loop reduction(+:sum)
         for(int i = 0; i < n; i++) {

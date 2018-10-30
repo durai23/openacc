@@ -9,3 +9,21 @@ GPU
 
 what is collapsing nested loops
 export JSC_SUBMIT_CMD="srun --pty"
+
+usign the profiler
+
+first compile the code
+then add the binary
+then select it in the gui and then click execute - small button on top panel 4th or so
+
+command for profiler - nvvp
+
+
+srun --pty --forward-x /bin/bash -i
+
+
+MPI stuff
+horiznatla stries in C
+certical stripes in FORTRAN
+
+

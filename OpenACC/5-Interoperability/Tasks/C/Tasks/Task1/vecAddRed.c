@@ -30,11 +30,15 @@ int main( int argc, char* argv[] ) {
     // Copy data to GPU
     #pragma acc data copyin(a[0:n],b[0:n])
     {
-        double alpha = 1;
+        //double alpha = 1;
         // TODO:
         //   - Add OpenACC clause to provide device addresses to cublasWrapper
         //   - Call cublasDaxpy with correct options [Note:cublasDaxpy]
-        cublasDaxpy();
+        double alpha = 1;
+        #pragma acc host_data use_device(a, b)
+        cublasDaxpy(handle, n, &alpha, a, 1., b, 1.);  // Calculates b = alpha * a + b (with a and b having stri    de 1), output stored in b
+	// original taks question call below
+        //cublasDaxpy();
 
         #pragma acc parallel loop reduction(+:sum)
         for(int i = 0; i < n; i++) {
